@@ -511,7 +511,7 @@ export default function App() {
                 <div style={{ fontWeight: 600, marginBottom: 6 }}>{t('init_mode_label')}</div>
                 <label style={{ display: "inline-flex", alignItems: "center", gap: 8, marginRight: 16 }}>
                   <input type="radio" name="initmode" checked={initModeOLS} onChange={() => setInitModeOLS(true)} />
-                  <span>{t('init_mode_ols')}</span><MathJaxFormula inline>{"（\\(\\hat{a}, \\hat{b}\\)）"}</MathJaxFormula>
+                  <span>{t('init_mode_ols')}</span><MathJaxFormula inline>{"（\\(a=\\hat{a}, b=\\hat{b}\\)）"}</MathJaxFormula>
                 </label>
                 <label style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
                   <input type="radio" name="initmode" checked={!initModeOLS} onChange={() => setInitModeOLS(false)} />
