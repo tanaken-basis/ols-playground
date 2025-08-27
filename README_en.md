@@ -16,8 +16,8 @@ Check out the [example of program usage](https://tanaken-basis.github.io/ols-pla
 ---
 
 ## 🚀 Features
-- Generates noisy data from a true line $ y = a_0 + b_0 x $
-- Adjustable parameters $ a, b $ via sliders
+- Generates noisy data from a true line $` y = a_0 + b_0 x `$
+- Adjustable parameters $` a, b `$ via sliders
 - SSE displayed in real-time, line color changes based on closeness to OLS
 - Toggle options: show true line, show residuals, fix axes
 - Adjustable sample size and noise strength
